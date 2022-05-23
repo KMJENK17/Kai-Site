@@ -1,0 +1,44 @@
+.navbarBrandName{
+    font-size: -webkit-xxx-large;
+}
+
+.navbar-expand-xl .navbar-nav {
+        flex-direction: row;
+        font-size: 1.5rem;
+        display: -webkit-inline-box;
+    }
+
+.navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        font-size: 2rem;
+    }
+
+    .downloadResumeButton {
+        height: 3.5rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+        margin: auto;
+        display: flex;
+    }
+
+    .btn-info {
+        color: #fff;
+        background-color: #1070fd;
+    }
+    
+.nav-link {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: black;
+}
+
+.offCanvasTitle{
+    font-size: xxx-large;
+}
