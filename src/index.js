@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import NavbarComp from './components/NavbarComp'
 import AboutMe from './components/AboutMe'
 import Maintitle from './components/Maintitle'
+import Resume from './components/Resume'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
     <NavbarComp />
     <Maintitle />
     <AboutMe />
+    <Resume />
     <App />
   </React.StrictMode>
 );

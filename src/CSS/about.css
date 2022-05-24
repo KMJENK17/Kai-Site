@@ -1,3 +1,20 @@
-.AboutMe{
-    background-color: aqua;
+.AboutMeTitle{
+    background-color: #2b6777;
+    color: white;
+    border-radius: 1rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 22rem;
+}
+
+.AboutMeContainer{
+    min-height: 90vh
+}
+
+.AboutMeInfo{
+    font-size: 3rem;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 2rem;
 }
