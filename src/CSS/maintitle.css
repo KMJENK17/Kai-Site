@@ -1,0 +1,21 @@
+
+.MainTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    list-style: none;
+    background-color: #f2f2f2;
+}
+.MaintitleTitle{
+    font-size: 4rem;
+}
+
+.MaintitleSubtext {
+    background-color: #2b6777;
+    color: white;
+    border-radius: 1rem;
+    width: 22rem;
+    font-size: 2.5rem;
+}

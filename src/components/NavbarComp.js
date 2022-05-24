@@ -11,7 +11,7 @@ function NavbarComp() {
       {['xl'].map((expand) => (
     <Navbar key={expand} bg="dark" variant="dark" expand={expand} className="mb-3">
       <Container fluid>
-      <Navbar.Brand href="/home" className="navbarBrandName">Kai Jenkins</Navbar.Brand>
+      <Navbar.Brand href="/home" className="navbarBrandName">KJ</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
@@ -20,7 +20,7 @@ function NavbarComp() {
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="offCanvasTitle">
-              Kai Jenkins
+              KJ
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>

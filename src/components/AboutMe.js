@@ -2,8 +2,8 @@ import '../CSS/about.css'
 
 function AboutMe() {
   return (
-    <div className="AboutMe">
-      <h1>About Me</h1>
+    <div className="AboutMeTitle">
+      <h1>HEllo</h1>
     </div>
   );
 }
