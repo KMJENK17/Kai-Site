@@ -7,7 +7,7 @@ import NavbarComp from './components/NavbarComp'
 import AboutMe from './components/AboutMe'
 import Maintitle from './components/Maintitle'
 import Resume from './components/Resume'
-
+import Skills from './components/Skills'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +16,7 @@ root.render(
     <Maintitle />
     <AboutMe />
     <Resume />
+    <Skills />
     <App />
   </React.StrictMode>
 );
