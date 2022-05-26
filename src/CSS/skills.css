@@ -1,0 +1,28 @@
+.skillsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem
+}
+
+.skillsList{
+    font-size: x-large;
+    margin: auto;
+    list-style: inside;
+}
+
+.languageTitle{
+
+}
+
+.frameworkTitle{
+
+}
+
+.databaseTitle{
+
+}
+
+.toolsTitle{
+
+}
