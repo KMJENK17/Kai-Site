@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Offcanvas from 'react-bootstrap/Offcanvas'
 import '../CSS/navbar.css'
-import Githubicon from '../CSS/images/github-icon.png'
-import Linkedinicon from '../CSS/images/linkedin-icon.png'
+import Githubicon from '../CSS/icons/github-icon.png'
+import Linkedinicon from '../CSS/icons/linkedin-icon.png'
 
 function NavbarComp() {
   return (

@@ -1,0 +1,10 @@
+.projectsContainer{
+    background-color: #f2f2f2;
+    margin-top: 2rem;
+}
+
+.cardContainer{
+    margin: auto;
+    max-width: 65%;
+    padding: 1.5rem;
+}
