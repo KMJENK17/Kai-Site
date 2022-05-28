@@ -8,7 +8,7 @@
 .skillsList{
     font-size: x-large;
     margin: auto;
-    list-style: inside;
+    list-style: none;
 }
 
 .languageTitle{
