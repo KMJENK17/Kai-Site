@@ -28,12 +28,12 @@ export default class Skills extends Component {
         return (
             <div className="skillsContainer">
                 <ul class="skillsList">
-                    <h1 className="languageTitle">Languages</h1>
+                    <b className="languageTitle">Languages:</b>
                     <li>Javascript<img src={JavascriptIcon} alt=""></img></li>
                     <li>Python<img src={PythonIcon} alt=""></img></li>
                     <li>HTML<img src={HTMLIcon} alt=''></img></li>
                     <li>CSS<img src={CSSIcon} alt=''></img></li>
-                    <h1 className="frameworkTitle">Frameworks</h1>
+                    <b className="frameworkTitle">Frameworks:</b>
                     <li>React <img src={ReactIcon} alt=""></img></li>
                     <li>Node <img src={NodejsIcon} alt=""></img></li>
                     <li>Django <img src={DjangoIcon} alt=""></img></li>
@@ -42,12 +42,12 @@ export default class Skills extends Component {
                     <li>Vue <img src={VueIcon} alt=""></img></li>
                     <li>Mustache <img src={MustacheIcon} alt=""></img></li>
                     <li>Prisma <img src={PrismaIcon} alt=""></img></li>
-                    <h1 className="databaseTitle">Databases</h1>
+                    <b className="databaseTitle">Databases:</b>
                     <li>PostgresSQL <img src={PostgreslSQLIcon} alt=""></img></li>
                     <li>SQL <img src={SQLIcon} alt=""></img></li>
                     <li>AWS <img src={AWSIcon} alt=""></img></li>
                     <li>MongoDB <img src={MongoDBIcon} alt=""></img></li>
-                    <h1 className="toolsTitle">Tools</h1>
+                    <b className="toolsTitle">Tools:</b>
                     <li>Git <img src={GitIcon} alt=""></img></li>
                     <li>Github <img src={GithubIcon} alt=""></img></li>
                     <li>Heroku <img src={HerokuIcon} alt=""></img></li>
