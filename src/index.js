@@ -9,6 +9,7 @@ import Resume from './components/Resume'
 import Skills from './components/Skills'
 import Projects from './components/Projects';
 import Contactme from './components/Contactme';
+import Footer from './components/Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
     <Skills />
     <Projects />
     <Contactme />
+    <Footer />
   </React.StrictMode>
 );
 

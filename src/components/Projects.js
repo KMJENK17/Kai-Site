@@ -14,6 +14,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div className="projectsContainer">
+          <h1 className="projectsTitle">PROJECTS</h1>
           <Card className="cardContainer">
       <CardMedia
         component="img"

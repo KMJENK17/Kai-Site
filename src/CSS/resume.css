@@ -15,6 +15,9 @@
     }
 }
 
-.vertical-timeline-element-icon bounce-in{
-    background: rgb(43, 103, 119)
+.resumeTitle{
+    justify-content: center;
+    display: flex;
+    background-color: #2b6777;
+    color: white  
 }

@@ -5,6 +5,7 @@ import '../CSS/resume.css';
 function Resume() {
     return (
         <div className="ResumeContainer">
+            <h1 className="resumeTitle">RESUME</h1>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"

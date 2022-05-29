@@ -27,6 +27,7 @@ export default class Skills extends Component {
     render() {
         return (
             <div className="skillsContainer">
+                <h1 className="skillsTitle">SKILLS</h1>
                 <ul class="skillsList">
                     <b className="languageTitle">Languages:</b>
                     <li>Javascript<img src={JavascriptIcon} alt=""></img></li>
