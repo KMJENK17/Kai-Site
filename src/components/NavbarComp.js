@@ -6,10 +6,14 @@ import Offcanvas from 'react-bootstrap/Offcanvas'
 import '../CSS/navbar.css'
 import Githubicon from '../CSS/icons/github-icon.png'
 import Linkedinicon from '../CSS/icons/linkedin-icon.png'
+import { BrowserRouter } from 'react-router-dom';
+import {HashLink as Link} from 'react-router-hash-link'
+import Resume from '../CSS/files/Kai-Jenkins-Resume.docx.pdf'
 
 function NavbarComp() {
   return (
     <div>
+      <BrowserRouter>
       {['xl'].map((expand) => (
         <Navbar key={expand} bg="dark" variant="dark" expand={expand} className="mb-3">
           <Container fluid>
@@ -25,22 +29,33 @@ function NavbarComp() {
                   KJ
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="flex-grow-1 pe-3">
-                  <Nav.Link href="/About-Me">About Me</Nav.Link>
-                  <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
-                  <Nav.Link href="/Experience">Experience</Nav.Link>
-                  <Nav.Link href="/Contact-Me">Contact Me</Nav.Link>
-                  <a href='../src/Ksai-Jenkins-Resume.docx.pdf' download="Kai-Jenkins-Resume.pdf">
+              <Offcanvas.Body >
+                  
+                  <Link to='#aboutme'>
+                    <h1 className='navLinkText'>About Me </h1>
+                  </Link>
+                  <Link to='#experience'>
+                  <h1 className='navLinkText'>Experience </h1>
+                  </Link>
+                  <Link to='#projects'>
+                  <h1 className='navLinkText'>Projects </h1>
+                  </Link>
+                  <Link to='#skills'>
+                  <h1 className='navLinkText'>Skills </h1>
+                  </Link>
+                  <Link to='#contactme'>
+                  <h1 className='navLinkText'>Contact Me </h1>
+                  </Link>
+                  <a href={Resume} download="Kai-Jenkins-Resume.pdf">
                     <Button variant="info" className="downloadResumeButton">Download Resume</Button>{' '}
                   </a>
-                </Nav>
                 <div className="quickLinksContainer">
                   <a class="navbar-brand" href="https://github.com/KMJENK17" target="_blank" rel="noopener noreferrer">
-                    <img src={Githubicon} alt="" />
+                    Github
+                    <img src={Githubicon} alt="" />            
                   </a>
-                  <a class="navbar-brand" href="https://www.linkedin.com/in/kai-jenkins/" target="_blank" rel="noopener noreferrer">
-                    <img src={Linkedinicon} alt="" />
+                  <a class="navbar-brand" href="https://www.linkedin.com/in/kai-jenkins/" target="_blank" rel="noopener noreferrer">                Linkedin
+                  <img src={Linkedinicon} alt="" />
                   </a>
                 </div>
               </Offcanvas.Body>
@@ -48,6 +63,7 @@ function NavbarComp() {
           </Container>
         </Navbar>
       ))}
+      </BrowserRouter>
     </div>
   );
 }

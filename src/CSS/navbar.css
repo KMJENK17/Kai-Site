@@ -18,8 +18,8 @@
     }
 
     .downloadResumeButton {
-        height: 3.5rem;
-        font-size: 1.5rem;
+        height: 2.5rem;
+        font-size: 1rem;
         border-radius: 0.5rem;
         margin: auto;
         width: -webkit-fill-available;
@@ -54,3 +54,47 @@
     display: flex;
     justify-content: center;
 }
+
+.navTitleInfo {
+    display: flex;
+}
+
+.navLinkText {
+    margin: auto;
+    color: grey;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    width: 4rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.linkedinButton{
+        background-color:#0288d1;
+        height: 4rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+        margin: auto;
+        width: -webkit-fill-available;
+}
+
+.githubButton{
+    background-color:#2100c4;
+    height: 4rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+        margin: auto;
+        width: -webkit-fill-available;
+}
+
+/* #2100c4 git*/
+/* #0288d1 link*/

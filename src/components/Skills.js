@@ -26,7 +26,7 @@ import ExpressIcon from '../CSS/icons/express-icon.png'
 export default class Skills extends Component {
     render() {
         return (
-            <div className="skillsContainer">
+            <div className="skillsContainer" id='skills'>
                 <h1 className="skillsTitle">SKILLS</h1>
                 <ul class="skillsList">
                     <b className="languageTitle">Languages:</b>

@@ -13,7 +13,7 @@ import Oceanair from '../CSS/website-images/oceanair.png'
 export default class Projects extends Component {
   render() {
     return (
-      <div className="projectsContainer">
+      <div className="projectsContainer" id='projects'>
           <h1 className="projectsTitle">PROJECTS</h1>
           <Card className="cardContainer">
       <CardMedia

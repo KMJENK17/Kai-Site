@@ -8,7 +8,7 @@ import Linkedinicon from '../CSS/icons/linkedin-icon.png';
 export default class Contactme extends Component {
   render() {
     return (
-      <div className="contactmeContainer">
+      <div className="contactmeContainer" id='contactme'>
         <h1 className="contactmeTitle">CONTACT ME</h1>
         <div class="card">
           <img src={KaiPic} alt="" className="contactImg" />

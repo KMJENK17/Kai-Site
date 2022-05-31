@@ -4,7 +4,7 @@ import '../CSS/resume.css';
 
 function Resume() {
     return (
-        <div className="ResumeContainer">
+        <div className="ResumeContainer" id='experience'>
             <h1 className="resumeTitle">RESUME</h1>
             <VerticalTimeline>
                 <VerticalTimelineElement
