@@ -8,7 +8,7 @@ import Githubicon from '../CSS/icons/github-icon.png'
 import Linkedinicon from '../CSS/icons/linkedin-icon.png'
 import { BrowserRouter } from 'react-router-dom';
 import {HashLink as Link} from 'react-router-hash-link'
-import Resume from '../CSS/files/Kai-Jenkins-Resume.docx.pdf'
+import Resume from '../CSS/files/Kai-Jenkins-Resume.pdf'
 
 function NavbarComp() {
   return (
