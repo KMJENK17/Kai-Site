@@ -1,7 +1,5 @@
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][https://github.com/KMJENK17]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/kai-jenkins/]
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -33,8 +31,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://kai-jenkins.netlify.app/)
 
 This project is for my portfolio website. I created it to show my skills as a devloper incorporationg new technologies I learned. 
 
