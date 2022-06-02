@@ -40,16 +40,11 @@ Here's why:
 * Pushing to try new techonlogy to create a working website
 
 
-
-Use the `BLANK_README.md` to get started.
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [React.js](https://reactjs.org/)
 * [Bootstrap](https://getbootstrap.com)
