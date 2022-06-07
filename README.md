@@ -31,7 +31,7 @@ Here's why:
 
 Kai Jenkins - kaijenkins@me.com
 
-Project Link: [https://github.com/KMJENK17/Kai-Site](https://github.com/KMJENK17/Kai-Site)
+Project Link: [https://kai-jenkins.netlify.app/](https://kai-jenkins.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
